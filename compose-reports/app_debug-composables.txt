@@ -1,0 +1,9 @@
+restartable fun Composable1(
+  unstable articles: Articles
+)
+restartable skippable fun Composable2(
+  stable uiModel: UiModel
+)
+restartable fun Composable3(
+  unstable article: Article
+)

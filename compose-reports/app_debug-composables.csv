@@ -1,0 +1,4 @@
+package,name,composable,skippable,restartable,readonly,inline,isLambda,hasDefaults,defaultsGroup,groups,calls,
+com.github.takahirom.compose_multimodule_stability.Composable1,Composable1,1,0,1,0,0,0,0,0,1,1,
+com.github.takahirom.compose_multimodule_stability.Composable2,Composable2,1,1,1,0,0,0,0,0,1,1,
+com.github.takahirom.compose_multimodule_stability.Composable3,Composable3,1,0,1,0,0,0,0,0,1,1,
