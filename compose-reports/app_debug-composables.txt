@@ -1,9 +1,13 @@
-restartable fun Composable1(
-  unstable articles: Articles
+restartable skippable fun Composable1(
+  articles: Articles
 )
 restartable skippable fun Composable2(
   stable uiModel: UiModel
 )
-restartable fun Composable3(
-  unstable article: Article
+restartable skippable fun Composable3(
+  article: Article
+)
+restartable skippable fun ComposemultimodulestabilityTheme(
+  stable darkTheme: Boolean = @dynamic isSystemInDarkTheme($composer, 0)
+  stable content: Function2<Composer, Int, Unit>
 )

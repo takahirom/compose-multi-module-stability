@@ -2,5 +2,5 @@ stable class MainActivity {
   <runtime stability> = Stable
 }
 stable class UiModel {
-  unstable val articles: Articles
+  runtime val articles: Articles
 }
