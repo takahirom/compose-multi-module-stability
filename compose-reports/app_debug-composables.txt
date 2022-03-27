@@ -7,7 +7,3 @@ restartable skippable fun Composable2(
 restartable skippable fun Composable3(
   article: Article
 )
-restartable skippable fun ComposemultimodulestabilityTheme(
-  stable darkTheme: Boolean = @dynamic isSystemInDarkTheme($composer, 0)
-  stable content: Function2<Composer, Int, Unit>
-)
