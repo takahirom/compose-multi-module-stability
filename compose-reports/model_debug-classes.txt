@@ -1,0 +1,8 @@
+unstable class Articles {
+  unstable val articles: List<Article>
+  <runtime stability> = Unstable
+}
+stable class Article {
+  stable val title: String
+  <runtime stability> = Stable
+}
